@@ -20,3 +20,12 @@ img{
 .bg-green{
     background-color: #1ABC9C;
 }
+
+.form li{
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+}
+
+.form li:nth-child(4){
+    padding-bottom: 6rem;
+}
