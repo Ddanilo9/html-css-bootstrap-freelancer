@@ -1,0 +1,22 @@
+.container_small{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.medium_container{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.t-white{
+    color: white;
+}
+
+.bg-green{
+    background-color: #1ABC9C;
+}
