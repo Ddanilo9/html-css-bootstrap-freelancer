@@ -19,36 +19,55 @@
 .bsf_bg_light {
     background-color: var(--bsf-light);
 }
+img{
+    max-width: 100%;
+}
+.py_6{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
-/* header ******/
-
+/* containers *****************/
 .container_small{
     max-width: 600px;
     margin: 0 auto;
 }
-
 .medium_container{
     max-width: 1000px;
     margin: 0 auto;  
 }
 
-img{
-    max-width: 100%;
-}
-
+/* main ********************/
 .avatar{
     height: 270px;
 }
 
 .line{
     display: inline-block;
-    width: 140px;
+    width: 10vw;
     height: 2px;
     background-color: var(--bsf-light);
     vertical-align: middle;
     margin: 0 10px;
 }
 
+/* portfolio */
+
+.portfolio .line{
+    color: var(--bsf-dark);
+    background-color: var(--bsf-dark);
+}
+
+.card_1 img{
+    border-radius: 20px;
+}
+
+/* contact */
+
+.contact_me .line{
+    color: var(--bsf-dark);
+    background-color: var(--bsf-dark);
+}
 
 .form li{
     border-bottom: 1px solid gray;
@@ -56,5 +75,17 @@ img{
 }
 
 .form li:nth-child(4){
-    padding-bottom: 6rem;
+    padding-bottom: 9rem;
+}
+
+/* footer */
+
+.fa-brands{
+    border-radius: 100%;
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    padding: 25%;
+    text-align: center;
 }
