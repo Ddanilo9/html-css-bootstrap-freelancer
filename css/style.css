@@ -1,25 +1,54 @@
+/* settings ********/
+:root{
+    --bsf-green: #1ABC9C;
+    --bsf-dark: #2C3E50;
+    --bsf-lightdark: #3A546D;
+    --bsf-light: #FFFFFF;
+}
+
+.bsf_bg_green {
+    background-color: var(--bsf-green);
+}
+.bsf_bg_dark {
+    background-color: var(--bsf-dark);
+    color: var(--bsf-light);  
+}
+.bsf_bg_lightdark {
+    background-color: var(--bsf-lightdark);
+}
+.bsf_bg_light {
+    background-color: var(--bsf-light);
+}
+
+/* header ******/
+
 .container_small{
     max-width: 600px;
     margin: 0 auto;
+}
+
+.medium_container{
+    max-width: 1000px;
+    margin: 0 auto;  
 }
 
 img{
     max-width: 100%;
 }
 
-.medium_container{
-    max-width: 1000px;
-    margin: 0 auto;
-    
+.avatar{
+    height: 270px;
 }
 
-.t-white{
-    color: white;
+.line{
+    display: inline-block;
+    width: 140px;
+    height: 2px;
+    background-color: var(--bsf-light);
+    vertical-align: middle;
+    margin: 0 10px;
 }
 
-.bg-green{
-    background-color: #1ABC9C;
-}
 
 .form li{
     border-bottom: 1px solid gray;
