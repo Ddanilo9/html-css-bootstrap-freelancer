@@ -37,6 +37,10 @@ img{
     margin: 0 auto;  
 }
 
+.px_7{
+    padding: 0 80px;
+}
+
 /* main ********************/
 .avatar{
     height: 270px;
